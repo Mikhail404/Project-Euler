@@ -24,6 +24,8 @@ def smallest_prime_factor(n):
 
 
 def largest_prime_factor(n):
+    #this will loop the body of this code indefinitely, we need to do this because we want to keep on dividing through n
+    #until we can find the largest prime factor
     while True:
         #calling our above function on n, stored in a new variable 'smallest_factor'
         smallest_factor = smallest_prime_factor(n)
