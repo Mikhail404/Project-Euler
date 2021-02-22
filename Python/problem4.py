@@ -5,7 +5,7 @@ def palindrome_product(lowerbound, upperbound):
     #this way, the first occurrence of a palindrome will also be the highest
     for i in range(upperbound, lowerbound, -1):
         for j in range(upperbound, lowerbound, -1):
-            if isPalindrome(i*j): 
+            if isPalindrome(i*j):   #if the product of i and j is a palindrome, check if its the highest number
                 if i*j>cur_max:     #if the resulting product is greater than max
                     cur_max = i*j   #set the max equal to the product of the 2 variables i,j
     return cur_max
