@@ -22,7 +22,7 @@ def palindrome_product(lowerbound, upperbound):
 
 
 def isPalindrome(n):
-    #returns true if its a palindrome
+    #returns the reversed string to be compared in line 8 which acts as a pseudo 'check'
     return str(n)==str(n)[::-1]
 
 
