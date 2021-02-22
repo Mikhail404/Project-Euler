@@ -17,9 +17,4 @@ def isPalindrome(n):
 
 
 
-
-
-
-
-
 print(palindrome_product(100, 999))
