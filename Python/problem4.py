@@ -12,11 +12,11 @@ def palindrome_product(lowerbound, upperbound):
 
 
 
-####### replace lines 6-11 for a more concise version using generator expressions #######
+####### replace lines 3-11 for a more concise version using generator expressions #######
 #this returns the product of i,j to max for comparison so it can determine which product is actually the max
 #and then simply combines the entire body of the code into 1 clean line which finally checks against the isPalindrome function
 
-#note: this code on its own will not run properly until you replace lines 6-11 since line 20 is just a condensed version of that
+#note: this code on its own will not run properly until you replace lines 3-11 since line 20 is just a condensed version of that
     return max(i*j for i in range(upperbound, lowerbound, -1) for j in range(upperbound, lowerbound, -1) if isPalindrome(i*j))
 
 
