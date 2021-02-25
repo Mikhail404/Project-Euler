@@ -17,7 +17,7 @@ def palindrome_product(lowerbound, upperbound):
 #and then simply combines the entire body of the code into 1 clean line which finally checks against the isPalindrome function
 
 #note: this code on its own will not run properly until you replace lines 3-11 since line 20 is just a condensed version of that
-    return max(i*j for i in range(upperbound, lowerbound, -1) for j in range(upperbound, lowerbound, -1) if isPalindrome(i*j))
+    #return max(i*j for i in range(upperbound, lowerbound, -1) for j in range(upperbound, lowerbound, -1) if isPalindrome(i*j))
 
 
 
