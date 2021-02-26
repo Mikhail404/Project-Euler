@@ -11,6 +11,6 @@ def sum_of_multiples(n):
     
     Sum = sum(list_of_nums_to_sum)
     print(Sum)
-    return None
+    
 
-print(sum_of_multiples(1000))
+sum_of_multiples(1000)
