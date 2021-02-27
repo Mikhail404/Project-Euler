@@ -17,6 +17,11 @@ def whatNumberIsThatPrime(n):
     #we loop over both trackers, increment the prime number by 1 and then check if primeNumber is a prime or not
     #if it is, increment nthPrime so that we know what number prime that prime number is.
     #(i.e, 7 is the 17th prime number, therefore at that instance in the loop, nthPrime = 17 and primeNumber = 7)
+
+    #if it isnt, increment primeNumber and keep searching
+    #we keep on doing this action of incrementing to the next number, checking if its a prime, if it is, increment the
+    #count so we know what number prime the prime number is until we reach when primeNumber = 10001 and let the algorithm
+    #figure out what nthPrime is associated with primeNumber
     while nthPrime < n:
         primeNumber += 1
         if primeChecker(primeNumber):
