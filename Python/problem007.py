@@ -30,7 +30,7 @@ def whatNumberIsThatPrime(n):
 
 
         
-print(whatNumberIsThatPrime(10001))
+print(whatNumberIsThatPrime(10002))
 
 
 

@@ -1,0 +1,13 @@
+create currentMax variable
+start loop at 1
+execute collatz()
+every time a new collatz number is calculated
+increment counter by 1
+once collatz(n) reaches 1
+if counter > currentMax
+currentMax = counter
+max = counter
+
+go next number in loop
+loop lines 2 to 8
+
